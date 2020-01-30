@@ -12,6 +12,8 @@ public class SampleTest2 {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.tvlicensing.co.uk");
 		System.out.println(driver.getCurrentUrl());
+		System.out.println(driver.getTitle());
+		
 		driver.quit();
 		
 	}
